@@ -22,7 +22,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-body, .nav-bar{
+.navbar, .home-callout{
     
 //Gradient Provided by uiGradents.com
     background: #4b6cb7; /* fallback for old browsers */
@@ -32,4 +32,11 @@ body, .nav-bar{
 
 .navbar {
     border:none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
 }
